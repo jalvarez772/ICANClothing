@@ -1,0 +1,16 @@
+.row {
+  background-color: black;
+  color: white;
+  height: 155px;
+  font-family: 'Lobster Two', cursive;
+}
+
+.ICAN-logo {
+  font-size: 80px;
+}
+
+h6 {
+  font-size: 30px;
+  color: white;
+  font-family: 'Lobster Two', cursive;
+}
