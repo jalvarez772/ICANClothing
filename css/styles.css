@@ -1,16 +1,43 @@
 .row {
   background-color: black;
   color: white;
-  height: 155px;
-  font-family: 'Lobster Two', cursive;
+  height: 190px;
+  
 }
 
-.ICAN-logo {
+#ICAN-logo {
   font-size: 80px;
+  font-family: 'Lobster Two', cursive;
 }
 
 h6 {
   font-size: 30px;
   color: white;
   font-family: 'Lobster Two', cursive;
+}
+
+.open-slide {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+#nav-hide {
+  display: none;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  padding: 25px;
+  position: relative;
+  background-color: red;
+  width: 250px;
 }

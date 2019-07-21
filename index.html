@@ -1,29 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>I CAN Clothing</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I CAN Clothing</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/styles.css">
+  <link href="stylesheet" rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-<div class="container-fluid text-center align">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="navbar-tuggle">
+        <span class="open-slide">
+          <a href="#" onclick="OpenSlideMenu()
+          ">
+            <svg width="30" height="30">
+              <path d="M0,5 30,5" stroke="#fff" stroke-width="5"></path>
+              <path d="M0,14 30,14" stroke="#fff" stroke-width="5"></path>
+              <path d="M0,23 30,23" stroke="#fff" stroke-width="5"></path>
+            </svg>
+          </a>
+
+          <h1 id="ICAN-logo" class="text-center align">I CAN</h1>
+          <h6 class="text-center align">Clothing</h6>
+
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="navbar container-fluid" id="nav-hide">
+    <ul>
+      <li><a href="index.html"><i class="fa fa-home icon"></i>Home</a></li>
+      <li><a href="stories.html">Stories</a></li>
+      <li><a href="being-you.html">Being You</a></li>
+      <li><a hreft="contact-us.html">Contact Us</a></li>
+    </ul>
+  </div> -->
+
+
+<div id="side-menu" class="side-nav">
+<ul>
+  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+  <li><a href="index.html"><i class="fa fa-home icon"></li>Home</a></li>
+  <li><a href="stories.html"><i class="fa fa-stories icon"></li>Stories</a></li>
+</ul>
+</div>
+
+  <!-- <div class="container-fluid text-center align">
   <div class="row">
     <div class="header">
       <h1 class="ICAN-logo">I CAN</h1>
-      <h6>clothing</h6>
+      <h6>Clothing Co.</h6>
     </div>
   </div>
-</div>
-	<!-- NAVBAR -->
+</div> -->
+  <!-- NAVBAR -->
+
+
 
   <!-- End of Navbar -->
-  
-  <div class="col-sm-2 social">
+
+  <!-- <div class="col-sm-2 social">
     <a href="#">
       <i class="fab fa facebook"></i>
       <span class="hidden-xs">Facebook</span>
@@ -36,11 +80,12 @@
       <i class="fab fa Snapchat"></i>
       <span class="hidden-xs">Snapchat</span>
     </a>
-  </div>
+  </div> -->
 
-<div class="rows col-sm-12 fine_print text-center">&copy; I CAN Clothing. All Rights Reserved</div>
-	<!-- scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+  <!-- <div class="rows col-sm-12 fine_print text-center">&copy; I CAN Clothing, Co. All Rights Reserved</div> -->
+  <!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
