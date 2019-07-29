@@ -6,12 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>I CAN Clothing</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/all.min.css"> -->
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">
   <link href="stylesheet" rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
-</head>
 
+</head>
 <body>
 
   <div class="container-fluid">
@@ -50,6 +53,8 @@
   <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
   <li><a href="index.html"><i class="fa fa-home icon"></li>Home</a></li>
   <li><a href="stories.html"><i class="fa fa-stories icon"></li>Stories</a></li>
+  <li><a href="beingyou.html"><i class="fa fa-stories icon"></li>Being You</a></li>
+  <li><a href="gifts.html"><i class="fa fa-stories icon"></li>Gifts</a></li>
 </ul>
 </div>
 
@@ -66,6 +71,66 @@
 
 
   <!-- End of Navbar -->
+
+	<!-- Carousel -->
+  <carousel id="carousel"></carousel>
+  <div class="container-fluid wrap">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="myCarousel" class="active" data-slide-to="0"></li>
+        <li data-target="myCarousel" data-slide-to="1"></li>
+        <li data-target="myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="item aspire_img_2 active">
+          <div class="carousel-caption">
+              <h1>I CAN...Aspire</h1>
+              <h2>Aspire</h2>
+              <a href="#" class="btn btn-lg btn-primary">Learn More</a>
+            <!-- <img src="img/logo-01.png" alt="logo" class="img-responsive center-block main_logo"> -->
+          </div>
+        </div>
+
+        <div class="item dream_img_1">
+          <div class="carousel-caption">
+            <h1>I CAN</h1>
+            <h2>Dream</h2>
+            <!-- <p>Aspire</p> -->
+            <a href="#" class="btn btn-lg btn-primary">Browse Gallery</a>
+          </div>
+        </div>
+
+        <div class="item child_bec_2">
+          <div class="carousel-caption">
+            <h1>I CAN</h1>
+            <p>Become</p>
+            <a href="#" class="btn btn-lg btn-primary">Learn More</a>
+          </div>
+        </div>
+
+        <!-- <div class="item child_bec_2">
+          <div class="carousel-caption">
+            <h1>I CAN</h1>
+            <p>Become</p>
+            <a href="#" class="btn btn-lg btn-primary">Learn More</a>
+          </div>
+        </div> -->
+
+      </div>
+
+      <a href="#myCarousel" class="left carousel-control" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- End ofCarousel -->
+
+
+  <!-- Start of Footer -->
 
   <!-- <div class="col-sm-2 social">
     <a href="#">
@@ -86,6 +151,7 @@
   <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

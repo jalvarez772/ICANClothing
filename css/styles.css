@@ -41,3 +41,103 @@ h6 {
   background-color: red;
   width: 250px;
 }
+
+/* Start Carousel */
+@import url('https://fonts.googleapis.com/css?family=Lobster%7CRaleway&display=swap'); 
+
+/* .words {
+  border-top: #b8b894;
+  font-family: 'Lobster', cursive;
+  font-size: 80px;
+  height: 95px;
+  color: #ff0000;
+}
+
+.bottom {
+  margin-left: 35px
+}
+
+.right_column {
+  background-position: center;
+  margin-top: 45px;
+}
+
+.styles {
+  font-size: 200px;
+  opacity: 0.2;
+  position: absolute;
+  bottom: 65px;
+  z-index: -1;
+} */
+
+ /* .text-center {
+   z-index: inherit;
+   position: inherit;
+   color: rgba (149,147,147,0.2)
+ } */
+
+/* Global */
+
+/* .wrap {
+  min-height: 100vh;
+}
+
+.carousel {
+  margin-bottom: 60px;
+}
+
+.carousel-caption {
+  z-index: 10;
+  padding-bottom: 60px;
+} */
+
+/* .container-fluid {
+  padding: 0;
+  margin: 0;
+} */
+
+.carousel-inner .item {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.apsire_img_2 {
+  background-image: url("../img/aspire_img_2.jpg");
+}
+
+.dream_img_1{
+  background-image: url("../img/dream_img_1.jpg");
+}
+
+.child_bec_2 {
+  background-image: url("../img/child_bec_2.jpg");
+}
+
+/* .main_logo {
+  max-height: 300px;
+} This is Jacques code, the below is mine because it was not showing up on my website*/ 
+
+/* .restaurante-logo {
+  max-height: 300px;
+  margin-left: 500px;
+  background-color: red;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #f8512f;
+  border-color: transparent;
+}
+
+.brn-primary:hover {
+  background-color: #d34326;
+  border-color: transparent;
+}
+
+.carousel-caption p {
+  color: #f7f7f7;
+  font-size: 16px; */
+}
+/* End Carousel */
