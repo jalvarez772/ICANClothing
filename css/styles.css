@@ -98,21 +98,21 @@ h6 {
 
 .carousel-inner .item {
   width: 100%;
-  height: 600px;
+  height: 700px;
   background-size: cover;
   background-position: center;
 }
 
-.apsire_img_2 {
-  background-image: url("../img/aspire_img_2.jpg");
+.dream1_img {
+  background-image: url("../img/dream1.jpg");
 }
 
-.dream_img_1{
-  background-image: url("../img/dream_img_1.jpg");
+.dream3_img {
+  background-image: url("../img/dream3.jpg");
 }
 
-.child_bec_2 {
-  background-image: url("../img/child_bec_2.jpg");
+.become2_img {
+  background-image: url("../img/become2.jpg");
 }
 
 /* .main_logo {
