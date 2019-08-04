@@ -1,20 +1,27 @@
 /* Navbar Start */
-.row {
+.row-from-nav {
   background-color: black;
   color: white;
   height: 190px;
   
 }
 
+.navbar-tuggle{
+  margin-top: 25px;
+}
+
+
 #ICAN-logo {
   font-size: 80px;
   font-family: 'Lobster Two', cursive;
+  margin-left: 96px;
 }
 
 h6 {
   font-size: 30px;
   color: white;
   font-family: 'Lobster Two', cursive;
+  margin-right: 247px;
 }
 
 .open-slide {
@@ -23,7 +30,7 @@ h6 {
 }
 
 #nav-hide {
-  display: none;
+  display: none;  
 }
 
 .navbar {
@@ -157,6 +164,51 @@ h2 {
 
 /* Start of Stories */
 
+
+
+
+
+
+
+/* beginning of gris code stories */ 
+
+.test1 {
+  margin-top: 10px;
+}
+
+.clothing1 img {
+  height: 311px ;
+  width: 321px;
+
+}
+
+.hr-2{
+  margin-left: 24px;
+  
+}
+
+.first-para{
+margin-left: 25px;
+}
+
+/* .button1{
+  margin-left: 25px;
+} */
+
+.btn1 {
+  margin-left: 80px;
+  margin-top: 10px;
+  box-shadow: 2px 2px;
+}
+
+/* end of gris code stories */
+
+
+
+
+
+
+
 #top-page h1 {
   font-family: 'Poppins', sans-serif;
   margin-top: 55px;
@@ -193,15 +245,15 @@ hr {
 }
 
 .dog img {
-  height: 312px;
-  width: 350px;
+  height: 100px;
+  width: 100px;
 }
 
-.btn {
+/* .btn {
   margin-left: 40px;
   margin-top: 55px;
   box-shadow: 2px 2px;
-}
+} */
 
 .ears img {
   height: 350px;
