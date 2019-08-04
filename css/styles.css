@@ -1,3 +1,4 @@
+/* Navbar Start */
 .row {
   background-color: black;
   color: white;
@@ -41,6 +42,8 @@ h6 {
   background-color: red;
   width: 250px;
 }
+
+/* Navbar Ends */
 
 /* Start Carousel */
 @import url('https://fonts.googleapis.com/css?family=Lobster%7CRaleway&display=swap'); 
@@ -96,7 +99,7 @@ h6 {
   margin: 0;
 } */
 
-/* Juan's code */
+/* Juan's Carousel code */
 
 .carousel-inner .item {
   width: 100%;
@@ -150,13 +153,169 @@ h2 {
   color: #f7f7f7;
   font-size: 16px; */
 }
-/* End Carousel */
+/* Juan's Carousel code Ends*//
+
+/* Start of Stories */
+
+#top-page h1 {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 55px;
+  font-size: 45px
+}
+
+.vet:hover {
+  color: yellowgreen;
+}
+
+#top-page img {
+  margin-left: 185px;
+  margin-top: 10px;
+}
+
+hr {
+  border-color: #000;
+  border-width: thick;
+  margin-top: 50px;
+}
+
+.middle {
+  font-size: 60px;
+  margin-top: 45px;
+  font-family: 'Grenze', serif;
+}
+
+.middle:hover {
+  color: yellowgreen;
+}
+
+.apoquel {
+  margin-top: 20px;
+}
+
+.dog img {
+  height: 312px;
+  width: 350px;
+}
+
+.btn {
+  margin-left: 40px;
+  margin-top: 55px;
+  box-shadow: 2px 2px;
+}
+
+.ears img {
+  height: 350px;
+  width: 350px;
+}
+
+.btn2 {
+  margin-top: 35px;
+  margin-left: 95px;
+}
+
+.video img {
+  height: 305px;
+  width: 250px;
+}
+
+.heartgard {
+  margin-top: 30px
+}
+
+.btn3 {
+  margin-top: 50px;
+  margin-left: 55px;
+}
+
+.center {
+  margin-top: 95px;
+}
+
+
+.feeder img {
+  height: 310px;
+  width: 300px;
+}
+
+.btn4 {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.water img {
+  height: 300px;
+  width: 240px;
+  margin-left: 80px;
+}
+
+.btn5 {
+  margin-left: 125px;
+  margin-top: 10px;
+}
+
+.nutra {
+  width: 160px;
+  height: 180px;
+  margin-left: 34px;
+  margin-top: 40px;
+}
+
+.bed img {
+  height: 250px;
+  width: 250px;
+}
+
+.btn6 {
+  margin-top: 21px;
+  margin-left: 85px;
+  margin-bottom: 25px;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  /* border: 5px solid black; */
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: transparent;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: black;
+  color: #5c4335;
+  transform: rotateY(180deg);
+}
+
+
+/* End of Stories */
 
 
 
-
-
-/* gris code begins */
+/* Juan code begins */
 
 #main-logo{
   margin-left: 45px;

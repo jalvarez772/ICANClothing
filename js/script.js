@@ -1,4 +1,5 @@
 function closeSlideMenu() {
-  console.log('This hits.');
+  document.getElementById('slide-menu').style.width = '250px';
+  document.getElementById('slide-menu').style.marginLeft = '250px';
 }
 
