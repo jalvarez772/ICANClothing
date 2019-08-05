@@ -99,6 +99,12 @@ h2 {
 
 }
 
+hr {
+  border-color: #000;
+  border-width: thick;
+  margin-top: 50px;
+}
+
 .hr-2 {
   margin-left: 24px;
   
