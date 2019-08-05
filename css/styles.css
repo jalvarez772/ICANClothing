@@ -164,36 +164,24 @@ h2 {
 
 /* Start of Stories */
 
-
-
-
-
-
-
-/* beginning of gris code stories */ 
-
 .test1 {
   margin-top: 10px;
 }
 
 .clothing1 img {
-  height: 311px ;
+  height: 324px ;
   width: 321px;
 
 }
 
-.hr-2{
+.hr-2 {
   margin-left: 24px;
   
 }
 
-.first-para{
+.first-para {
 margin-left: 25px;
 }
-
-/* .button1{
-  margin-left: 25px;
-} */
 
 .btn1 {
   margin-left: 80px;
@@ -201,167 +189,119 @@ margin-left: 25px;
   box-shadow: 2px 2px;
 }
 
-/* end of gris code stories */
-
-
-
-
-
-
-
-#top-page h1 {
-  font-family: 'Poppins', sans-serif;
-  margin-top: 55px;
-  font-size: 45px
-}
-
-.vet:hover {
-  color: yellowgreen;
-}
-
-#top-page img {
-  margin-left: 185px;
+.test2 {
   margin-top: 10px;
 }
 
-hr {
-  border-color: #000;
-  border-width: thick;
-  margin-top: 50px;
+.clothing4 img {
+  height: 317px;
+  width: 315px;
 }
 
-.middle {
-  font-size: 60px;
-  margin-top: 45px;
-  font-family: 'Grenze', serif;
+.hr-3 {
+  margin-left: 24px;
 }
 
-.middle:hover {
-  color: yellowgreen;
-}
-
-.apoquel {
-  margin-top: 20px;
-}
-
-.dog img {
-  height: 100px;
-  width: 100px;
-}
-
-/* .btn {
-  margin-left: 40px;
-  margin-top: 55px;
-  box-shadow: 2px 2px;
-} */
-
-.ears img {
-  height: 350px;
-  width: 350px;
+.sec-para {
+  margin-left: 25px;
 }
 
 .btn2 {
-  margin-top: 35px;
-  margin-left: 95px;
-}
-
-.video img {
-  height: 305px;
-  width: 250px;
-}
-
-.heartgard {
-  margin-top: 30px
-}
-
-.btn3 {
-  margin-top: 50px;
-  margin-left: 55px;
-}
-
-.center {
-  margin-top: 95px;
-}
-
-
-.feeder img {
-  height: 310px;
-  width: 300px;
-}
-
-.btn4 {
-  margin-left: 50px;
-  margin-bottom: 10px;
-}
-
-.water img {
-  height: 300px;
-  width: 240px;
   margin-left: 80px;
+  margin-top: 10px;
+  box-shadow: 2px 2px;
 }
 
-.btn5 {
-  margin-left: 125px;
+.test3 {
   margin-top: 10px;
 }
 
-.nutra {
-  width: 160px;
-  height: 180px;
-  margin-left: 34px;
-  margin-top: 40px;
+.clothing9 img {
+  height: 339px;
+  width: 296px;
 }
 
-.bed img {
-  height: 250px;
-  width: 250px;
+.hr-4 {
+  margin-left: 5px;
+}
+
+.thir-para {
+  margin-left: 10px;
+}
+
+.btn3 {
+  margin-left: 80px;
+  margin-top: 10px;
+  box-shadow: 2px 2px;
+}
+
+.test4 {
+  margin-top: 10px;
+}
+
+.clothing11 img {
+  height: 339px;
+  width: 296px;
+}
+
+.hr-5 {
+  margin-left: 10px;
+}
+
+.four-para {
+  margin-left: 10px;
+}
+
+.btn4 {
+  margin-left: 80px;
+  margin-top: 10px;
+  box-shadow: 2px 2px;
+}
+
+.test5 {
+  margin-top: 10px;
+}
+
+.clothing12 img {
+  height: 339px;
+  width: 296px;
+}
+
+.hr-6 {
+  margin-left: 10px;
+}
+
+.fif-para {
+  margin-left: 10px;
+}
+
+.btn5 {
+  margin-left: 80px;
+  margin-top: 10px;
+  box-shadow: 2px 2px;
+}
+
+.test6 {
+  margin-top: 10px;
+}
+.clothing13 img {
+  height: 339px;
+  width: 296px;
+}
+
+.hr-7 {
+  margin-left: 10px;
+}
+
+.six-para {
+  margin-left: 10px;
 }
 
 .btn6 {
-  margin-top: 21px;
-  margin-left: 85px;
-  margin-bottom: 25px;
+  margin-left: 80px;
+  margin-top: 10px;
+  box-shadow: 2px 2px;
 }
-
-.flip-box {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  /* border: 5px solid black; */
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-.flip-box-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-box-front, .flip-box-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-box-front {
-  background-color: transparent;
-  color: black;
-}
-
-.flip-box-back {
-  background-color: black;
-  color: #5c4335;
-  transform: rotateY(180deg);
-}
-
 
 /* End of Stories */
 
