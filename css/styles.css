@@ -99,6 +99,11 @@ h2 {
 
 }
 
+img:hover {
+  cursor: pointer;
+  
+}
+
 hr {
   border-color: #000;
   border-width: thick;
