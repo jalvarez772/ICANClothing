@@ -21,7 +21,7 @@
 
   <div class="container-fluid">
     <div class="row row-from-nav">
-      <div class="navbar-tuggle col-md-2">
+      <div class="navbar col-md-2">
           <span class="open-slide">
               <a href="#" onclick="OpenSlideMenu()
               ">
@@ -29,34 +29,48 @@
                   <path d="M0,5 30,5" stroke="#fff" stroke-width="5"></path>
                   <path d="M0,14 30,14" stroke="#fff" stroke-width="5"></path>
                   <path d="M0,23 30,23" stroke="#fff" stroke-width="5"></path>
-                </svg></a></span>
+                </svg>
+              </a>
+            </span>
       </div>
 
       <div class="col-md-2 col-md-pull-1 gold-logo">
-          <img src="img/ICANlogo_gold.jpg" alt="My ICAN logo Gold">
+          <img src="img/ICANlogo3.jpg" alt="My ICAN logo">
       </div>
 
       <div class="col-md-6">
           <h1 id="ICAN-logo">I CAN</h1>
-          <h6 class="text-center align">Clothing</h6>
       </div>
 
     </div>
   </div>
 
+  <!--beginning of new code -->
+
+  <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeSlideMenu()">&times</a>
+      <a href="#">Home</a>
+      <a href="#">Stories</a>
+      <a href="#">Being You</a>
+      <a href="#">Gifts</a>
+    </div>
+
+
+  <!-- end of new code -->
+
 
 
   <!-- Slide Menu/Side Nav Starts -->
 
-<div id="side-menu" class="side-nav">
+<!-- <div id="side-menu" class="side-nav">
 <ul>
-  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+  <a href="#" class="btn-close" onclick="closeSlideMenu">&times;</a>
   <li><a href="index.html"><i class="fa fa-home icon"></li>Home</a></li>
   <li><a href="stories.html"><i class="fa fa-stories icon"></li>Stories</a></li>
   <li><a href="beingyou.html"><i class="fa fa-stories icon"></li>Being You</a></li>
   <li><a href="gifts.html"><i class="fa fa-stories icon"></li>Gifts</a></li>
 </ul>
-</div>
+</div> -->
 
   <!-- End of Navbar -->
 
@@ -73,36 +87,24 @@
       <div class="carousel-inner">
         <div class="item newdr2_img active">
           <div class="carousel-caption">
-              <h1>I CAN</h1>
-              <h2>..Aspire</h2>
-              <!-- <a href="#" class="btn btn-lg btn-primary">Learn More</a> -->
-            <!-- <img src="img/logo-01.png" alt="logo" class="img-responsive center-block main_logo"> -->
+              <h1>I CAN..Aspire</h1>
+              <h2>All of Us</h2>
           </div>
         </div>
 
         <div class="item dream3_img">
           <div class="carousel-caption">
-            <h1>I CAN</h1>
-            <h2>..Dream</h2>
-            <!-- <a href="#" class="btn btn-lg btn-primary">Browse Gallery</a> -->
+            <h1>I CAN..Dream</h1>
+            <h2>Nothing to lose</h2>
           </div>
         </div>
 
         <div class="item become2_img">
           <div class="carousel-caption">
-            <h1>I CAN</h1>
-            <h2>..Become</h2>
-            <!-- <a href="#" class="btn btn-lg btn-primary">Learn More</a> -->
+            <h1>I CAN..Become</h1>
+            <h2>Nobody is built like you, you designed yourself</h2>
           </div>
         </div>
-
-        <!-- <div class="item child_bec_2">
-          <div class="carousel-caption">
-            <h1>I CAN</h1>
-            <p>Become</p>
-            <a href="#" class="btn btn-lg btn-primary">Learn More</a>
-          </div>
-        </div> -->
 
       </div>
 
@@ -216,6 +218,22 @@
 
   <!-- <div class="rows col-sm-12 fine_print text-center">&copy; I CAN Clothing, Co. All Rights Reserved</div> -->
   <!-- scripts -->
+
+
+
+<script>
+  function openSlideMenu() {
+  document.getElementById('side-menu').style.width = '250px';
+  document.getElementById('main').style.marginLeft = '250px';
+}
+
+function closeSlideMenu() {
+  document.getElementById('side-menu').style.width = '0px';
+  document.getElementById('main').style.marginLeft = '0px';
+}
+</script>
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
